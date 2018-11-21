@@ -1,0 +1,7 @@
+h2. $tableName
+
+|| 列名||描述||描述||默认值||是否可为空||备注
+#foreach( $elem in $columns)
+$elem
+#end
+
